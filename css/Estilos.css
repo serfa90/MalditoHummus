@@ -20,7 +20,7 @@ header {
 
 /*Títulos y subtitulos*/
 .titulo {
-  font-family: "Anton", sans-serif;
+  font-family: "Anton", sans-serif, "Bebas Neue";
   font-weight: lighter;
   color: #ffbe00;
   font-size: 35px;
@@ -29,7 +29,7 @@ header {
   background-color: #252525; }
 
 .subTitulo {
-  font-family: "Anton", sans-serif;
+  font-family: "Anton", sans-serif, "Bebas Neue";
   font-weight: lighter;
   color: #ffbe00;
   font-size: 45px;
@@ -47,7 +47,7 @@ header {
   background-image: url(../Imagenes/FondoMadera.jpg);
   margin-left: 0.1%; }
   .seccionHome h2 {
-    font-family: "Anton", sans-serif;
+    font-family: "Anton", sans-serif, "Bebas Neue";
     font-weight: lighter;
     color: #ffbe00;
     text-decoration: underline;
@@ -59,7 +59,7 @@ header {
     color: white; }
 
 .slogan {
-  font-family: "Anton", sans-serif;
+  font-family: "Anton", sans-serif, "Bebas Neue";
   color: #aa0404;
   font-size: 2rem; }
 
@@ -238,7 +238,7 @@ li a:hover {
   padding: 2% 0% 2% 0%; }
 
 .puntosDeVenta {
-  font-family: "Anton", sans-serif;
+  font-family: "Anton", sans-serif, "Bebas Neue";
   font-weight: lighter;
   color: #ffbe00;
   font-size: 27px; }
