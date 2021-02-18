@@ -1,5 +1,5 @@
 $amarillo: rgb(255, 190, 0);
-$fuenteTitulo: 'Anton', sans-serif;
+$fuenteTitulo: 'Anton', sans-serif, 'Bebas Neue';
 @mixin fuente {
      font-family: $fuenteTitulo;
      font-weight: lighter;
@@ -60,7 +60,7 @@ header{
         background-image: url(../Imagenes/FondoMadera.jpg);
         margin-left: 0.1%;
              h2{ @include fuente;
-                 text-decoration: underline;
+                 text-decoration: none;
                 font-size: 40px;
         }
              div{
@@ -74,10 +74,6 @@ header{
         color: rgb(170, 4, 4);
         font-size: 2rem;
     }
-    .garbanzo{
-        width: 95%;
-        height: 100%;
-      }
     @media (min-width: 992px){
         #jalapeno {
             display: none;
@@ -163,16 +159,16 @@ background-color: $amarillo;
     margin: 1% 0.1% 0.5% 0.1%;
     padding-top: 2%;
 }
-#logoPie{
-    float: left;
-    width: 150px;
-    height: 100px;
-}
 .textoProductos:hover{
     opacity: 0.7;
     transition: 0.5s;
 }
 /*Estilos footer*/
+#logoPie{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
 .menuPie{
     list-style: none;
     width: 28vh;
