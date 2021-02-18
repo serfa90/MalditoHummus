@@ -61,7 +61,7 @@ header{
         margin-left: 0.1%;
              h2{ @include fuente;
                  text-decoration: none;
-                font-size: 40px;
+                font-size: 30pt;
         }
              div{
                 font-size: 25px;
@@ -122,6 +122,9 @@ header{
     .textoImagenes:hover{
         opacity: 0.7;
         transition: 0.5s;
+    }
+    .vegetales{
+        padding-bottom: 20%;
     }
 /*Registro Home*/
 .registro{

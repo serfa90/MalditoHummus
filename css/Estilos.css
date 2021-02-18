@@ -51,7 +51,7 @@ header {
     font-weight: lighter;
     color: #ffbe00;
     text-decoration: none;
-    font-size: 40px; }
+    font-size: 30pt; }
   .seccionHome div {
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
@@ -136,6 +136,9 @@ header {
 .textoImagenes:hover {
   opacity: 0.7;
   transition: 0.5s; }
+
+.vegetales {
+  padding-bottom: 20%; }
 
 /*Registro Home*/
 .registro {
