@@ -19,7 +19,7 @@ $fuenteTitulo: 'Anton', sans-serif, 'Bebas Neue';
 /*Color de fondo Body*/
 body{
     background-image: url(../Imagenes/hummusBack-min.jpg);
-    margin: 0.3%;
+    margin-right: 0.2%;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -43,14 +43,14 @@ header{
     border: $amarillo solid 1px;
     background-color: #252525;
     }
-    .subTitulo{
-        @include fuente;
-        font-size: 45px;
-        text-align: center;
-        margin-top: 10px;
-        border: $amarillo solid 1px;
-        background-color: #252525;
-    }
+.subTitulo{
+    @include fuente;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    border: $amarillo solid 1px;
+    background-color: #252525;
+}
     /*Secciones Home*/
     .seccionHome{
         border-bottom: $amarillo solid 2px;
@@ -61,7 +61,7 @@ header{
         margin-left: 0.1%;
              h2{ @include fuente;
                  text-decoration: none;
-                font-size: 30pt;
+                font-size: 40px;
         }
              div{
                 font-size: 25px;
@@ -78,14 +78,18 @@ header{
         #jalapeno {
             display: none;
         }
+        #tostada{
+            display: none;
+        }
         .imagen:hover{
             transform: scale(1.1)
         }
         .textoImagenes{
             @include hoverImagenes;
-            height: 96.9%;
-            width: 88%;
+            height: 97%;
+            width: 88.3%;
             font-size: 1.2rem;
+            margin-top: 2.5%;
         }
         .textoProductos{
             @include hoverImagenes;
@@ -94,21 +98,74 @@ header{
             margin-left: 1%;
         }
     }
-    @media (max-width: 992px){ 
+    @media (max-width: 992px){
+        .seccionHome{
+            h2{ @include fuente;
+                text-decoration: none;
+               font-size: 30px;
+       }
+            div{
+               font-size: 20px;
+               font-family: 'Roboto', sans-serif; font-weight: 350;
+               color: white;
+           }
+        }
         .textoImagenes{
             @include hoverImagenes;
-            height: 98.1%;
-            width: 91.7%;
-            font-size: 2rem;
+            height: 97.5%;
+            width: 90%;
+            font-size: 23px;
+            margin-top: 2%;
         }   
         .imagen{
             margin-left: 1%;
         }
         .textoProductos{
             @include hoverImagenes;
-            width: 91.8%;
+            width: 95%;
             height: 98%;
         }
+    }
+    @media (max-width: 768px){
+        .textoImagenes{
+            @include hoverImagenes;
+            height: 96.5%;
+            width: 86.5%;
+            font-size: 23px;
+            margin-top: 3%;
+        }   
+        .imagen{
+            margin-left: 1%;
+        }
+    }
+    @media (max-width: 576px){
+    .seccionHome{
+        h2{ @include fuente;
+            text-decoration: none;
+           font-size: 24px;
+   }
+        div{
+           font-size: 16px;
+           font-family: 'Roboto', sans-serif; font-weight: 350;
+           color: white;
+       }
+       .textoImagenes{
+        @include hoverImagenes;
+        height: 94%;
+        width: 80%;
+        font-size: 16px;
+        margin-top: 4%;
+    }
+    .textoProductos{
+        @include hoverImagenes;
+        width: 88%;
+        height: 95%;
+        margin-left: 1%;
+    }
+}
+.vegetales{
+    display: none;
+}
     }
 /*Efectos y diseño de imágenes*/
     .imagen{
