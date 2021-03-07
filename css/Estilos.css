@@ -23,6 +23,13 @@ header {
   background-color: #252525;
   margin-bottom: 5%; }
 
+.titulo {
+  font-family: "Anton", sans-serif, "Bebas Neue";
+  font-weight: lighter;
+  color: #FFBE00;
+  font-size: 35px;
+  text-align: center; }
+
 /*Secciones Home*/
 .seccionHome {
   border-bottom: #FFBE00 solid 2px;
@@ -178,7 +185,17 @@ header {
     height: 95%;
     margin-left: 1%; }
   .vegetales {
-    display: none; } }
+    display: none; }
+  /*Página productos*/
+  .titulo {
+    font-size: 25px; }
+  .subTitulo {
+    font-size: 35px; }
+  #gmap_canvas {
+    height: 150px;
+    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-left: 7%; } }
 
 /*Efectos y diseño de imágenes*/
 .imagen {
@@ -228,8 +245,7 @@ header {
 /*Estilos página Productos y recetas*/
 .fondoProductos {
   background-image: url(../Imagenes/FondoMadera.jpg);
-  margin: 1% 0.1% 0% 0.1%;
-  padding-top: 2%; }
+  margin-right: 0%; }
 
 .textoProductos:hover {
   opacity: 0.7;
@@ -239,6 +255,9 @@ h4 {
   color: #FFBE00;
   font-family: "Anton", sans-serif, "Bebas Neue";
   font-size: 35px;
+  text-align: center; }
+
+#textoRecetas {
   text-align: center; }
 
 /*Estilos footer*/
@@ -280,24 +299,24 @@ li {
   background-image: url(../Imagenes/Fondo.png); }
 
 .registroMail {
-  height: 48rem;
-  width: 97.7%;
-  padding-top: 16%;
-  margin: 1% 1% 1% 1.2%;
-  background-image: url(../Imagenes/Fondoveg.jpg);
+  width: 99.9%;
+  height: 30rem;
+  padding-top: 2%;
+  padding-bottom: 20%;
+  background-image: url(../Imagenes/FondoMadera.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
   .registroMail button {
     display: flex;
-    justify-content: center;
-    margin-left: 47%; }
+    align-self: flex-end;
+    margin-top: 4%; }
   .registroMail .contactoPag {
     border: #FFBE00 solid 1px; }
+  .registroMail .form-label {
+    padding-top: 10%; }
 
 /*Estilos Puntos De Venta*/
 .contenedorPuntos {
-  margin-top: 1%;
-  margin-bottom: 1%;
   background-image: url(../Imagenes/FondoMadera.jpg);
   padding: 2% 0% 2% 0%; }
 
@@ -306,3 +325,7 @@ li {
   font-weight: lighter;
   color: #FFBE00;
   font-size: 27px; }
+
+#gmap_canvas {
+  height: 500px;
+  width: 600px; }
