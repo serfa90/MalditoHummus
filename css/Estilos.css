@@ -157,8 +157,6 @@ header {
     font-family: 'Roboto', sans-serif;
     font-weight: 350;
     color: white; }
-  .seccionHome .titulo {
-    width: 100px; }
   .seccionHome .subTitulo {
     font-size: 10px; }
   .seccionHome .textoImagenes {
@@ -250,7 +248,8 @@ header {
 /*Estilos página Productos y recetas*/
 .fondoProductos {
   background-image: url(../Imagenes/FondoMadera.jpg);
-  margin-right: 0%; }
+  margin-right: 0%;
+  padding-top: 3%; }
 
 .textoProductos:hover {
   opacity: 0.7;
