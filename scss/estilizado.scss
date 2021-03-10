@@ -156,8 +156,14 @@ header{
         #mobile{
             display: none
         }
+        .puntosDeVenta{
+            font-size: 25px;
+        }
     }
-    @media (max-width: 576px){
+    @media (max-width: 576px){   
+    .puntosDeVenta{
+        font-size: 16px;
+    }
         #desktop{
             display: none;
         }
@@ -347,7 +353,6 @@ background-size: cover;
 }
 .puntosDeVenta{
     @include fuente;
-    font-size: 27px;
 }
 #gmap_canvas{
     height: 500px;
