@@ -182,6 +182,12 @@ header {
 @media (max-width: 576px) {
   .puntosDeVenta {
     font-size: 16px; }
+  .form-control {
+    margin-left: 10%; }
+  .btn {
+    margin-left: 10%; }
+  .form-label {
+    margin-left: 10%; }
   #desktop {
     display: none; }
   .seccionHome h2 {
