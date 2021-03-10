@@ -182,6 +182,9 @@ header{
         margin-top: 4%;
         font-weight: bolder;
     }
+    #mantenete{
+        font-size: 14px;
+    }
 }
 .textoProductos{
     @include hoverImagenes;
