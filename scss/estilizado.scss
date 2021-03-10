@@ -83,7 +83,11 @@ header{
             @include hoverImagenes;
             width: 88.5%;
             height: 97%;
+            font-size: 1.2rem;
             margin-left: 1%;
+        }
+        .subTitulo{
+            font-size: 40px;
         }
     }
     @media (max-width: 992px){
@@ -101,7 +105,7 @@ header{
         .textoImagenes{
             @include hoverImagenes;
             height: 97.5%;
-            width: 90%;
+            width: 75.5%;
             font-size: 23px;
             margin-top: 2%;
         }   
@@ -110,24 +114,53 @@ header{
         }
         .textoProductos{
             @include hoverImagenes;
-            width: 95%;
-            height: 98%;
+            width: 82%;
+            height: 94.8%;
+            font-size: 16px;
+            margin-left: 1.6%;
+            margin-top: 4%;
+        }
+        .titulo{
+            font-size: 25px;
+        }
+        .subTitulo{
+            font-size: 33px;
         }
     }
     @media (max-width: 768px){
         .textoImagenes{
             @include hoverImagenes;
-            height: 96.5%;
-            width: 86.5%;
+            height: 96.6%;
+            width: 86.9%;
             font-size: 23px;
             margin-top: 3%;
         }   
         .imagen{
             margin-left: 1%;
         }
-
+        .textoProductos{
+            @include hoverImagenes;
+            width: 87.5%;
+            height: 97%;
+            font-size: 23px;
+            margin-left: 1.6%;
+        }
+        .titulo{
+            font-size: 25px;
+        }
+        .subTitulo{
+            font-size: 35px;
+        }
+    }
+    @media (min-width: 577px){
+        #mobile{
+            display: none
+        }
     }
     @media (max-width: 576px){
+        #desktop{
+            display: none;
+        }
     .seccionHome{
         h2{ @include fuente;
             text-decoration: none;
@@ -149,22 +182,25 @@ header{
         margin-top: 4%;
         font-weight: bolder;
     }
-    .textoProductos{
-        @include hoverImagenes;
-        width: 88%;
-        height: 95%;
-        margin-left: 1%;
-    }
+}
+.textoProductos{
+    @include hoverImagenes;
+    height: 94.5%;
+    width: 80.5%;
+    font-size: 16px;
+    margin-top: 4%;
+    font-weight: bolder;
+    margin-left: 1.8%;
 }
     .vegetales{
        display: none;
     }
     /*Página productos*/
     .titulo{
-        font-size: 25px;
+        font-size: 23px;
     }
     .subTitulo{
-        font-size: 35px;
+        font-size: 32px;
     }
     #gmap_canvas{
          height: 150px;

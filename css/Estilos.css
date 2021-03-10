@@ -84,7 +84,10 @@ header {
     opacity: 0;
     width: 88.5%;
     height: 97%;
-    margin-left: 1%; } }
+    font-size: 1.2rem;
+    margin-left: 1%; }
+  .subTitulo {
+    font-size: 40px; } }
 
 @media (max-width: 992px) {
   .seccionHome h2 {
@@ -109,7 +112,7 @@ header {
     margin-top: 1.8%;
     opacity: 0;
     height: 97.5%;
-    width: 90%;
+    width: 75.5%;
     font-size: 23px;
     margin-top: 2%; }
   .imagen {
@@ -124,8 +127,15 @@ header {
     padding-top: 40%;
     margin-top: 1.8%;
     opacity: 0;
-    width: 95%;
-    height: 98%; } }
+    width: 82%;
+    height: 94.8%;
+    font-size: 16px;
+    margin-left: 1.6%;
+    margin-top: 4%; }
+  .titulo {
+    font-size: 25px; }
+  .subTitulo {
+    font-size: 33px; } }
 
 @media (max-width: 768px) {
   .textoImagenes {
@@ -138,14 +148,38 @@ header {
     padding-top: 40%;
     margin-top: 1.8%;
     opacity: 0;
-    height: 96.5%;
-    width: 86.5%;
+    height: 96.6%;
+    width: 86.9%;
     font-size: 23px;
     margin-top: 3%; }
   .imagen {
-    margin-left: 1%; } }
+    margin-left: 1%; }
+  .textoProductos {
+    text-align: center;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Roboto';
+    background-color: rgba(255, 190, 0, 0.6);
+    padding-top: 40%;
+    margin-top: 1.8%;
+    opacity: 0;
+    width: 87.5%;
+    height: 97%;
+    font-size: 23px;
+    margin-left: 1.6%; }
+  .titulo {
+    font-size: 25px; }
+  .subTitulo {
+    font-size: 35px; } }
+
+@media (min-width: 577px) {
+  #mobile {
+    display: none; } }
 
 @media (max-width: 576px) {
+  #desktop {
+    display: none; }
   .seccionHome h2 {
     font-family: "Anton", sans-serif, "Bebas Neue";
     font-weight: lighter;
@@ -174,7 +208,7 @@ header {
     font-size: 16px;
     margin-top: 4%;
     font-weight: bolder; }
-  .seccionHome .textoProductos {
+  .textoProductos {
     text-align: center;
     position: absolute;
     color: black;
@@ -184,16 +218,19 @@ header {
     padding-top: 40%;
     margin-top: 1.8%;
     opacity: 0;
-    width: 88%;
-    height: 95%;
-    margin-left: 1%; }
+    height: 94.5%;
+    width: 80.5%;
+    font-size: 16px;
+    margin-top: 4%;
+    font-weight: bolder;
+    margin-left: 1.8%; }
   .vegetales {
     display: none; }
   /*Página productos*/
   .titulo {
-    font-size: 25px; }
+    font-size: 23px; }
   .subTitulo {
-    font-size: 35px; }
+    font-size: 32px; }
   #gmap_canvas {
     height: 150px;
     margin-bottom: 8%;
